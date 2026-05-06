@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oh My Browser — 为 AI agent 打造的 MCP 原生浏览器基建</title>
+<meta name="description" content="为 AI agent 和 agent 平台打造的 MCP 原生浏览器基建。用你已有的登录态读取和操作任意网页，支持 Claude Code、Cursor、Codex、Windsurf 等。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://omb.org.cn/zh-CN/">
+<link rel="alternate" hreflang="en" href="https://omb.org.cn/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://omb.org.cn/zh-CN/">
+<link rel="alternate" hreflang="x-default" href="https://omb.org.cn/en/">
+<meta property="og:title" content="Oh My Browser — 为 AI agent 打造的 MCP 原生浏览器基建">
+<meta property="og:description" content="为 AI agent 和 agent 平台打造的 MCP 原生浏览器基建。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://omb.org.cn/zh-CN/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Oh My Browser",
+  "operatingSystem": "Chrome",
+  "applicationCategory": "BrowserExtension",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CNY" },
+  "description": "为 AI agent 和 agent 平台打造的 MCP 原生浏览器基建。"
+}
+</script>
+<style>
+  :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+  body { max-width: 720px; margin: 0 auto; padding: 4rem 1.5rem; line-height: 1.7; }
+  h1 { font-size: 2.1rem; line-height: 1.3; margin-bottom: 0.5rem; }
+  h2 { margin-top: 2.5rem; }
+  .sub { color: #666; font-size: 1.05rem; margin-top: 0; }
+  .cta { display: inline-block; padding: 0.75rem 1.25rem; margin-top: 1rem; border-radius: 6px; background: #0969da; color: #fff; text-decoration: none; }
+  .cta.secondary { background: #f6f8fa; color: #24292f; border: 1px solid #d0d7de; }
+  ul { padding-left: 1.2rem; }
+  code { background: #f6f8fa; padding: 0.15rem 0.35rem; border-radius: 3px; font-size: 0.9em; }
+  footer { margin-top: 4rem; color: #888; font-size: 0.9rem; }
+  footer a { color: inherit; }
+  .lang-toggle { position: absolute; top: 1rem; right: 1rem; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<a class="lang-toggle" href="/en/">English</a>
+
+<h1>为 AI agent 打造的 MCP 原生浏览器。</h1>
+<p class="sub">用你已有的登录态读取和操作任意网页 —— 支持 Claude Code、Cursor、Codex、Windsurf、Trae、OpenClaw 等。</p>
+
+<a class="cta" href="/zh-CN/install.html">立即安装</a>
+<a class="cta secondary" href="https://github.com/getohmy/omb-extension">公开源码</a>
+
+<h2>核心能力</h2>
+<ul>
+  <li><strong>读任意页面</strong> —— Agent 帮你读微信公众号、知乎回答、GitHub issue、Outlook 收件箱，所有你已登录的站点。</li>
+  <li><strong>操作任意页面</strong> —— 点击、填表、导航、提交。Agent 驱动真实浏览器，而不是"截图+猜"。</li>
+  <li><strong>两个版本</strong> —— Lite 从 Chrome 网上应用店一键装。Full 解锁 CDP 级控制（焦点模拟、用户手势合成、网络 body 抓取），用于长任务和需要手势的场景。</li>
+</ul>
+
+<h2>适合谁</h2>
+<p>如果你在做 AI agent 产品 —— 开发者工具、深度研究 workflow、或完整的 agent 平台 —— OMB 是让你的 agent 留在用户登录墙内侧的浏览器执行层。</p>
+
+<h2>一键安装</h2>
+<p>任何 shell，一条命令：</p>
+<pre><code>curl -fsSL https://api.omb.org.cn/install/install.sh | sh</code></pre>
+<p>或访问 <a href="/zh-CN/install.html">安装指南页</a>。</p>
+
+<footer>
+  <a href="/zh-CN/privacy.html">隐私政策</a> · <a href="/en/">English</a> · <a href="mailto:security@omb.org.cn">security@omb.org.cn</a>
+</footer>
+</body>
+</html>

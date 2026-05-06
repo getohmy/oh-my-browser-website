@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "install": "Install",
+    "guide": "Guide",
+    "signin": "Sign in"
+  },
+  "hero": {
+    "title": "MCP-native browser infrastructure\nfor AI agents & agent platforms",
+    "subtitle": "Built for Claude Code, Cursor, Codex, Windsurf, OpenClaw + more. Your real Chrome, your logged-in sessions, any MCP client.",
+    "cta": {
+      "lite": "Install Lite (Web Store)",
+      "full": "Install Oh My Browser"
+    }
+  },
+  "home": {
+    "siteMemory": {
+      "headline": "Gets smarter each time you use it",
+      "body1": "Oh My Browser caches site-specific selectors and page structure after each successful action. The second visit to any page is faster — no re-discovery step.",
+      "body2": "Intent-first routing matches your agent's goal to the most reliable execution path learned from prior sessions. Common workflows converge to near-zero overhead.",
+      "body3": "Site memory is private to your account and never shared across users. It is deleted when you remove your account."
+    },
+    "features": {
+      "read": {
+        "title": "Read + Act",
+        "body1": "Extract structured data, fill forms, click buttons — all in a real Chrome tab with your full browser profile.",
+        "body2": "JavaScript-rendered pages, SPAs, infinite scroll: handled natively. No headless workarounds needed.",
+        "body3": "Accessibility tree + DOM map for reliable element targeting. CDP fallback for CSP-strict sites."
+      },
+      "sessions": {
+        "title": "Logged-in sessions",
+        "body1": "Use your existing Chrome sessions — no credential sharing with the AI agent required.",
+        "body2": "Works with SSO, 2FA, cookie-gated content, and enterprise intranets your agent could never reach otherwise.",
+        "body3": "The agent acts on your behalf inside your authenticated browser, not a cold headless instance."
+      },
+      "mcp": {
+        "title": "MCP-native",
+        "body1": "First-class MCP server. Drop the connection config into Claude Code, Cursor, Codex, Windsurf, or any MCP client.",
+        "body2": "Tools: omb_read, omb_action, omb_map, omb_snapshot, omb_search. One SDK, all agents.",
+        "body3": "Structured error codes with recovery hints so your agent can handle failures programmatically."
+      }
+    },
+    "editions": {
+      "title": "Choose your edition",
+      "row": {
+        "read": "Read & extract web pages",
+        "act": "Click, fill, navigate",
+        "sessions": "Logged-in session support",
+        "siteMemory": "Site Memory (selector cache)",
+        "concurrent": "Concurrent tab operations"
+      },
+      "lite": {
+        "read": "Yes",
+        "act": "Yes",
+        "sessions": "Yes",
+        "siteMemory": "No",
+        "concurrent": "1 tab"
+      },
+      "full": {
+        "read": "Yes",
+        "act": "Yes",
+        "sessions": "Yes",
+        "siteMemory": "Yes",
+        "concurrent": "Up to 8 tabs"
+      },
+      "liteHeading": "Lite",
+      "fullHeading": "Oh My Browser"
+    },
+    "hero": {
+      "cta": {
+        "chrome": "Get Lite from Chrome Web Store"
+      }
+    }
+  },
+  "features": {
+    "read": {
+      "title": "TBD",
+      "description": "TBD"
+    },
+    "act": {
+      "title": "TBD",
+      "description": "TBD"
+    },
+    "mcp": {
+      "title": "TBD",
+      "description": "TBD"
+    }
+  },
+  "install": {
+    "title": "Install Oh My Browser",
+    "lite": {
+      "heading": "Oh My Browser Lite (Chrome Web Store)",
+      "desc": "Zero-config, one-click install from the Chrome Web Store. The fastest way to get started.",
+      "cta": "Install from Chrome Web Store",
+      "bullet1": "Best for first-time users — install in under a minute",
+      "bullet2": "Auto-updates automatically via Chrome Web Store",
+      "bullet3": "Subject to Web Store sandbox limits — some advanced capabilities require Oh My Browser"
+    },
+    "full": {
+      "heading": "Oh My Browser",
+      "desc": "Install via curl for the complete feature set. Unlocks advanced capabilities Chrome reserves for unpacked extensions.",
+      "bullet1": "Full capabilities: background tab focus, trusted gestures, and full network responses",
+      "bullet2": "Manual update via re-running the install script",
+      "bullet3": "Recommended for agent developers and power users"
+    },
+    "mcp": {
+      "heading": "Configure your MCP client",
+      "intro": "Connect Oh My Browser to your AI agent in one step. Choose your MCP client below.",
+      "copy": "Copy",
+      "copied": "Copied!"
+    },
+    "cursor": {
+      "installBtn": "Install for Cursor",
+      "fallbackCopy": "Copy config JSON",
+      "fallbackCopied": "Copied!"
+    },
+    "claudeDesktop": {
+      "copyPathBtn": "Copy config file path"
+    }
+  },
+  "guide": {
+    "title": "Guide",
+    "ide-agent": {
+      "title": "IDE Agent Guide"
+    },
+    "agent-platform": {
+      "title": "Agent Platform Guide"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy"
+  },
+  "terms": {
+    "title": "Terms of Service"
+  },
+  "demo": {
+    "title": "Demo Page",
+    "p1": "Oh My Browser is a Chrome extension that gives AI agents real browser access via the Model Context Protocol. Unlike headless browsers, it runs inside your existing Chrome instance — with your cookies, your logins, and your browsing history intact.",
+    "p2": "This demo page is designed so an AI agent can read it successfully in under three seconds. It contains plain HTML with no dynamic loading, no iframes, no cookie walls, and no CAPTCHA. Every element is accessible and serializable.",
+    "p3": "When an agent reads this page using the omb_read tool, it receives the full text content, image alt text, and list items below. This baseline confirms the MCP connection is working and the extension has browser access.",
+    "img": {
+      "alt": "Screenshot of an AI agent reading a webpage through Oh My Browser in Claude Code"
+    },
+    "list": {
+      "item1": "Plain text content — no JavaScript rendering required for this page",
+      "item2": "One image with meaningful alt text — verifiable by the agent",
+      "item3": "A short unordered list — three items, this being the last"
+    },
+    "agent": {
+      "prompt": "Open your AI agent and paste: `Read https://omb.org.cn/demo-page and tell me what the first paragraph is about`"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about Oh My Browser, MCP, Site Memory, and how to get started.",
+    "q1": {
+      "question": "What is MCP and why does it matter for AI agents?",
+      "answer": "MCP (Model Context Protocol) is an open standard that lets AI agents call external tools in a structured way. Oh My Browser implements an MCP server so agents in Claude Code, Cursor, Codex, Windsurf, and other MCP clients can control a real Chrome browser with a single tool call. No custom code, no brittle Playwright wrappers — just drop the connection config and start browsing."
+    },
+    "q2": {
+      "question": "What is Site Memory?",
+      "answer": "Site Memory is Oh My Browser's learning layer. After your agent successfully interacts with a page, the extension caches the CSS selectors and page structure it used. On the next visit to the same site, it skips the discovery step and goes straight to execution. Memory is private to your account and is deleted when you delete your account."
+    },
+    "q3": {
+      "question": "What is the difference between Lite and Oh My Browser?",
+      "answer": "Lite is the Chrome Web Store build — useful for managed Chrome environments where unpacked extensions are blocked. It supports reading and acting on web pages with your logged-in sessions, but Web Store sandbox limits cap it at one concurrent tab and exclude Site Memory. Oh My Browser (the curl-installed default build) unlocks the full capability set: Site Memory, up to 8 concurrent tabs, and CDP-level browser control. It's the recommended build for production agent workflows."
+    },
+    "q4": {
+      "question": "Does Oh My Browser share my browsing data with the AI agent?",
+      "answer": "No. The extension does not stream your browsing history or session tokens to the agent. The agent sends a task (e.g., 'read this URL') and receives only the result of that task. Your cookies and credentials stay in Chrome. The extension does cache anonymized site-structure signals (selectors, page layout) to power Site Memory — these are private to your account and never shared across users."
+    },
+    "q5": {
+      "question": "How do I install Oh My Browser for Claude Code or Cursor?",
+      "answer": "Install the Chrome extension from the Chrome Web Store, then run `npx @omb/cli --mcp` in your terminal. The CLI prints an MCP config block — paste it into your Claude Code or Cursor MCP settings file and restart the client. Full step-by-step instructions are on the Install page."
+    }
+  },
+  "footer": {
+    "product": {
+      "heading": "Product",
+      "install": "Install",
+      "guide": "Guide"
+    },
+    "resources": {
+      "heading": "Resources",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "github": "GitHub"
+    },
+    "compatibility": {
+      "heading": "Works with"
+    },
+    "brand": {
+      "copyright": "© 2026 Oh My Browser"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "cta": "Go to home page"
+  },
+  "metadata": {
+    "faq": {
+      "title": "FAQ — Oh My Browser",
+      "description": "Answers to common questions about Oh My Browser, MCP, Site Memory, Lite vs the default Oh My Browser build, and how to install for Claude Code and Cursor."
+    },
+    "notFound": {
+      "title": "Page Not Found — Oh My Browser",
+      "description": "The page you are looking for does not exist."
+    },
+    "default": {
+      "title": "Oh My Browser — MCP-native browser for AI agents",
+      "description": "Oh My Browser gives AI agents real browser access via MCP. Read, act, and navigate the web with your logged-in sessions."
+    },
+    "home": {
+      "title": "Oh My Browser — MCP-native browser for AI agents",
+      "description": "MCP-native browser infrastructure for AI agents and agent platforms. Your real Chrome, your logged-in sessions, any MCP client."
+    },
+    "install": {
+      "title": "Install Oh My Browser",
+      "description": "Install Oh My Browser or Oh My Browser Lite and connect your AI agent via MCP in minutes."
+    },
+    "guide": {
+      "title": "Oh My Browser Guide",
+      "description": "Step-by-step guides for connecting Oh My Browser to IDE agents and agent platforms.",
+      "ide-agent": {
+        "title": "IDE Agent Guide — Oh My Browser",
+        "description": "Connect Oh My Browser to Claude Code, Cursor, Codex, Windsurf, and other IDE agents via MCP."
+      },
+      "agent-platform": {
+        "title": "Agent Platform Guide — Oh My Browser",
+        "description": "Integrate Oh My Browser with OpenClaw, clawhub, and agent platforms via MCP."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy — Oh My Browser",
+      "description": "Oh My Browser privacy policy covering data collection, agent site behavior memory, and device characteristics."
+    },
+    "terms": {
+      "title": "Terms of Service — Oh My Browser",
+      "description": "Terms of service for Oh My Browser browser extension and MCP server."
+    },
+    "demo": {
+      "title": "Demo Page — Oh My Browser",
+      "description": "A structured demo page for testing AI agent browser access via Oh My Browser."
+    }
+  }
+}

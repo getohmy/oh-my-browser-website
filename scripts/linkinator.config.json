@@ -1,0 +1,7 @@
+{
+  "skip": "(localhost|127\\.0\\.0\\.1|github\\.com/getohmy/oh-my-browser/issues)",
+  "linksToSkip": ["mailto:", "tel:"],
+  "concurrency": 8,
+  "timeout": 5000,
+  "retry": true
+}

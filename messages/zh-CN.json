@@ -1,0 +1,246 @@
+{
+  "nav": {
+    "install": "安装",
+    "guide": "指南",
+    "signin": "登录"
+  },
+  "hero": {
+    "title": "为 AI agent 和 agent 平台打造的\nMCP 原生浏览器基建",
+    "subtitle": "为 Claude Code、Cursor、Codex、Windsurf、OpenClaw 等而生。你自己的 Chrome，你自己的登录态，任何 MCP 客户端。",
+    "cta": {
+      "lite": "安装 Lite 版",
+      "full": "安装 Oh My Browser"
+    }
+  },
+  "home": {
+    "siteMemory": {
+      "headline": "经验自动积累，站点识别越用越快",
+      "body1": "Oh My Browser 在每次成功操作后缓存站点专属的选择器和页面结构。之后再访问同一页面时，直接跳过探索步骤，速度更快。",
+      "body2": "意图优先路由将 agent 目标与历史会话中学到的最可靠执行路径匹配。常见工作流逐渐收敛到近零开销。",
+      "body3": "站点记忆仅限你的账号私有，不跨用户共享。删除账号时级联清除。"
+    },
+    "features": {
+      "read": {
+        "title": "读取 + 操作",
+        "body1": "提取结构化数据、填写表单、点击按钮——全部在真实的 Chrome 标签页中，使用你完整的浏览器配置文件。",
+        "body2": "JavaScript 渲染的页面、SPA、无限滚动：原生支持，无需 headless 变通方案。",
+        "body3": "可访问性树 + DOM 映射，元素定位可靠。CSP 严格站点自动降级 CDP。"
+      },
+      "sessions": {
+        "title": "登录态直用",
+        "body1": "使用你已有的 Chrome 会话——无需向 AI agent 共享任何凭据。",
+        "body2": "支持 SSO、两步验证、Cookie 门控内容以及 agent 否则无法访问的企业内网。",
+        "body3": "Agent 在你的已认证浏览器中代替你行动，而非冷启动的 headless 实例。"
+      },
+      "mcp": {
+        "title": "MCP 原生",
+        "body1": "一流 MCP server。将连接配置放入 Claude Code、Cursor、Codex、Windsurf 或任何 MCP 客户端即可。",
+        "body2": "工具集：omb_read、omb_action、omb_map、omb_snapshot、omb_search。一套 SDK，适配所有 agent。",
+        "body3": "结构化错误码附带恢复提示，让你的 agent 能以编程方式处理失败。"
+      }
+    },
+    "editions": {
+      "title": "选择你的版本",
+      "row": {
+        "read": "读取和提取网页",
+        "act": "点击、填写、导航",
+        "sessions": "登录态支持",
+        "siteMemory": "站点记忆（选择器缓存）",
+        "concurrent": "并发标签页操作"
+      },
+      "lite": {
+        "read": "支持",
+        "act": "支持",
+        "sessions": "支持",
+        "siteMemory": "不支持",
+        "concurrent": "1 个标签页"
+      },
+      "full": {
+        "read": "支持",
+        "act": "支持",
+        "sessions": "支持",
+        "siteMemory": "支持",
+        "concurrent": "最多 8 个标签页"
+      },
+      "liteHeading": "Lite 版",
+      "fullHeading": "Oh My Browser"
+    },
+    "hero": {
+      "cta": {
+        "chrome": "从 Chrome 应用商店安装 Lite"
+      }
+    }
+  },
+  "features": {
+    "read": {
+      "title": "待填写",
+      "description": "待填写"
+    },
+    "act": {
+      "title": "待填写",
+      "description": "待填写"
+    },
+    "mcp": {
+      "title": "待填写",
+      "description": "待填写"
+    }
+  },
+  "install": {
+    "title": "安装 Oh My Browser",
+    "lite": {
+      "heading": "Oh My Browser Lite（Chrome 应用商店）",
+      "desc": "零配置，从 Chrome 应用商店一键安装。最快速的上手方式。",
+      "cta": "从 Chrome 应用商店安装",
+      "bullet1": "适合初次试用——不到一分钟即可完成安装",
+      "bullet2": "通过 Chrome 应用商店自动更新",
+      "bullet3": "受商店沙盒限制——部分高级能力需安装 Oh My Browser"
+    },
+    "full": {
+      "heading": "Oh My Browser",
+      "desc": "通过 curl 安装，解锁完整能力集。开放商店版中不可用的高级功能。",
+      "bullet1": "完整能力：背景标签页 focus、受信任手势、完整网络响应",
+      "bullet2": "手动更新（重新运行安装脚本）",
+      "bullet3": "推荐给 agent 开发者和重度用户"
+    },
+    "mcp": {
+      "heading": "配置你的 MCP 客户端",
+      "intro": "一步完成 Oh My Browser 与 AI agent 的连接。在下方选择你的 MCP 客户端。",
+      "copy": "复制",
+      "copied": "已复制！"
+    },
+    "cursor": {
+      "installBtn": "安装到 Cursor",
+      "fallbackCopy": "复制配置 JSON",
+      "fallbackCopied": "已复制！"
+    },
+    "claudeDesktop": {
+      "copyPathBtn": "复制配置文件路径"
+    }
+  },
+  "guide": {
+    "title": "指南",
+    "ide-agent": {
+      "title": "IDE Agent 接入指南"
+    },
+    "agent-platform": {
+      "title": "Agent 平台接入指南"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策"
+  },
+  "terms": {
+    "title": "服务条款"
+  },
+  "demo": {
+    "title": "演示页面",
+    "p1": "Oh My Browser 是一款 Chrome 扩展，通过模型上下文协议（MCP）为 AI agent 提供真实的浏览器访问能力。与 headless 浏览器不同，它运行在你现有的 Chrome 实例中——你的 Cookie、你的登录态、你的浏览器历史完整保留。",
+    "p2": "本演示页面专为 AI agent 设计，可在三秒内成功读取。页面使用纯 HTML，无动态加载、无 iframe、无 Cookie 墙，也无验证码。所有元素均可访问和序列化。",
+    "p3": "当 agent 使用 omb_read 工具读取本页面时，将获取全文内容、图片 alt 文本以及下方的列表条目。此基线确认 MCP 连接正常，扩展具有浏览器访问权限。",
+    "img": {
+      "alt": "Claude Code 中通过 Oh My Browser 读取网页的 AI agent 截图"
+    },
+    "list": {
+      "item1": "纯文本内容——本页无需 JavaScript 渲染",
+      "item2": "一张含有意义的 alt 文本的图片——可被 agent 核验",
+      "item3": "一个简短的无序列表——三个条目，此为最后一个"
+    },
+    "agent": {
+      "prompt": "打开你的 AI agent，粘贴下面这行：`读一下 https://omb.org.cn/demo-page 然后告诉我第一段讲了什么`"
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "关于 Oh My Browser、MCP、站点记忆以及如何上手的常见问题解答。",
+    "q1": {
+      "question": "什么是 MCP？它对 AI agent 有何意义？",
+      "answer": "MCP（模型上下文协议）是一个开放标准，让 AI agent 以结构化方式调用外部工具。Oh My Browser 实现了一个 MCP server，Claude Code、Cursor、Codex、Windsurf 等 MCP 客户端中的 agent 只需一次工具调用即可控制真实的 Chrome 浏览器。无需自定义代码，无需脆弱的 Playwright 封装——放入连接配置即可开始浏览。"
+    },
+    "q2": {
+      "question": "什么是站点记忆？",
+      "answer": "站点记忆是 Oh My Browser 的学习层。agent 成功与页面交互后，扩展会缓存所用的 CSS 选择器和页面结构。下次访问同一站点时，跳过探索步骤直接执行。记忆仅限你的账号私有，删除账号时级联清除。"
+    },
+    "q3": {
+      "question": "Lite 版和 Oh My Browser 有什么区别？",
+      "answer": "Lite 是 Chrome Web Store 提供的精简版本，在受管 Chrome（不允许加载 unpacked 扩展）的环境下也能用。它支持使用你的登录态读取和操作网页，但受 Web Store 沙盒限制——单并发标签页、不含站点记忆。Oh My Browser（curl 安装的默认版本）解锁完整能力：站点记忆、最多 8 个并发标签页、CDP 级浏览器控制——是 agent 重度工作流的推荐版本。"
+    },
+    "q4": {
+      "question": "Oh My Browser 会把我的浏览数据共享给 AI agent 吗？",
+      "answer": "不会。扩展不向 agent 流式传输浏览历史或会话令牌。agent 发送一个任务（如'读取这个 URL'），只收到该任务的结果。你的 Cookie 和凭据保留在 Chrome 中。扩展会缓存匿名化的站点结构信号（选择器、页面布局）以支持站点记忆——这些仅限你的账号私有，不跨用户共享。"
+    },
+    "q5": {
+      "question": "如何为 Claude Code 或 Cursor 安装 Oh My Browser？",
+      "answer": "从 Chrome 应用商店安装 Chrome 扩展，然后在终端运行 `npx @omb/cli --mcp`。CLI 会打印一段 MCP 配置——将其粘贴到你的 Claude Code 或 Cursor MCP 设置文件并重启客户端。详细步骤请参见安装页面。"
+    }
+  },
+  "footer": {
+    "product": {
+      "heading": "产品",
+      "install": "安装",
+      "guide": "指南"
+    },
+    "resources": {
+      "heading": "资源",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "github": "GitHub"
+    },
+    "compatibility": {
+      "heading": "兼容客户端"
+    },
+    "brand": {
+      "copyright": "© 2026 Oh My Browser"
+    }
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "你访问的页面不存在或已被移动。",
+    "cta": "返回首页"
+  },
+  "metadata": {
+    "faq": {
+      "title": "常见问题 — Oh My Browser",
+      "description": "关于 Oh My Browser、MCP、站点记忆、Lite 与 Oh My Browser 差异以及如何为 Claude Code 和 Cursor 安装的常见问题解答。"
+    },
+    "notFound": {
+      "title": "页面未找到 — Oh My Browser",
+      "description": "你访问的页面不存在。"
+    },
+    "default": {
+      "title": "Oh My Browser — 专为 AI Agent 打造的 MCP 原生浏览器",
+      "description": "Oh My Browser 通过 MCP 为 AI agent 提供真实浏览器访问能力。用你自己的 Chrome、自己的登录态读取和操作网页。"
+    },
+    "home": {
+      "title": "Oh My Browser — 专为 AI Agent 打造的 MCP 原生浏览器",
+      "description": "为 AI agent 和 agent 平台打造的 MCP 原生浏览器基建。你自己的 Chrome，你自己的登录态，任何 MCP 客户端。"
+    },
+    "install": {
+      "title": "安装 Oh My Browser",
+      "description": "安装 Oh My Browser 或 Lite 版,几分钟内通过 MCP 连接你的 AI agent。"
+    },
+    "guide": {
+      "title": "Oh My Browser 使用指南",
+      "description": "将 Oh My Browser 接入 IDE agent 和 agent 平台的分步指南。",
+      "ide-agent": {
+        "title": "IDE Agent 接入指南 — Oh My Browser",
+        "description": "通过 MCP 将 Oh My Browser 接入 Claude Code、Cursor、Codex、Windsurf 等 IDE agent。"
+      },
+      "agent-platform": {
+        "title": "Agent 平台接入指南 — Oh My Browser",
+        "description": "通过 MCP 将 Oh My Browser 接入 OpenClaw、clawhub 等 agent 平台。"
+      }
+    },
+    "privacy": {
+      "title": "隐私政策 — Oh My Browser",
+      "description": "Oh My Browser 隐私政策，涵盖数据收集、agent 站点行为记忆及设备特征信息。"
+    },
+    "terms": {
+      "title": "服务条款 — Oh My Browser",
+      "description": "Oh My Browser 浏览器扩展及 MCP 服务的服务条款。"
+    },
+    "demo": {
+      "title": "演示页面 — Oh My Browser",
+      "description": "用于测试 AI agent 通过 Oh My Browser 访问浏览器的结构化演示页面。"
+    }
+  }
+}
